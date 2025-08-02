@@ -5,8 +5,8 @@ import { decrement, increment, incrementByAmount } from './slice'
 
 const App = () => {
   // ---------UseState-----------
-  const [Data, setData] = useState('')
-  const InpValue = Number(Data)
+  const [data , setData] = useState('')
+  const inpValue = Number(data)
   // ----------Redux-------------
   const MyData = useSelector((state)=>state.MyRedux.value)
   const dispatch = useDispatch()
@@ -15,10 +15,11 @@ const App = () => {
     dispatch(increment())
   }
   const HandleMinus =()=>{
+    if(MyData != 0)
     dispatch(decrement())
   }
   const HandleAmount = ()=>{
-    dispatch(incrementByAmount(InpValue))
+    dispatch(incrementByAmount(inpValue))
   }
   return (
     <>
