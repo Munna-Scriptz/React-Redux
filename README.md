@@ -100,6 +100,6 @@ Add unit tests for slices and components
 
 📬 Let’s Connect!
 
-👤 LinkedIn: [Your LinkedIn Profile]
+👤 LinkedIn: [Munna scrits]
 
 ✉️ Email: munnascriptz@gmail.com
