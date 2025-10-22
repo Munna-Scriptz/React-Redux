@@ -1,4 +1,4 @@
-⚛️ React + Redux Demo
+React Redux
 
 A clean and structured demo setup showing how to integrate React with Redux using the modern Redux Toolkit and React Redux bindings. Perfect for learning state management fundamentals in frontend development.
 
