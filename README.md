@@ -94,7 +94,7 @@ Implement middleware for side effects or logging
 
 Add unit tests for slices and components
 
-1
+2
 
 ---
 
